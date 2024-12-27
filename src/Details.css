@@ -1,0 +1,46 @@
+.flight-details {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .info-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .info-section {
+    width: 45%;
+  }
+
+  .air{
+    font-weight: bold;
+  }
+  
+  .time-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .extra-info {
+    margin-top: 10px;
+  }
+  
+  .timezone {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
